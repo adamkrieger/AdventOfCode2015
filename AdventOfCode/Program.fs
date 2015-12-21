@@ -4,9 +4,9 @@
 let main argv = 
     printfn "%A" argv
 
-    let problem = new Day2()
+    let problem = new Day3()
 
-    printfn "%d" problem.solve
+    printfn "%s" problem.solve
 
     do System.Console.ReadKey() |> ignore
 
